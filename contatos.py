@@ -55,3 +55,12 @@ class Contatos:
 
     def _get_aniversario(self):
         return self._aniversario
+
+    def _set_id(self, Id: int):
+        if type(Id) != int:
+            print("Id: valor nao inteiro!")
+            exit(1)
+        self._id: int = Id
+
+    def _get_id(self):
+        return self._id
