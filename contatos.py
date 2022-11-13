@@ -16,10 +16,6 @@ class Contatos:
         self._email = (email,)
         self._aniversario = aniversario
 
-        if (nome == "") or (telefone == ""):
-            print("Falta nome e/ou telefone!")
-            exit(1)
-
     def _set_nome(self, nome: str):
         if (nome == "") or (type(nome) != str):
             print("Nome: valor vazio ou nao string!")
