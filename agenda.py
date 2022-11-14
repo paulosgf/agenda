@@ -35,8 +35,9 @@ class Agenda:
         del self._agenda[entrada]
         print("contato excluido!")
 
-    def busca(self):
-        pass
+    def busca(self, padrao):
+        resposta = next(item for item in self._agenda if self._agenda[item]._get_nome() == padrao)
+        return resposta
 
     def exibe(self, entrada):
         return [
