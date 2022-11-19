@@ -25,16 +25,16 @@ def main():
             nome, telefone, email, aniversario, id = input(
                 "Contato separado por espaço na forma: nome, telefone, email, aniversario, ID: "
             ).split()
-            obj.adiciona(nome, telefone, email, aniversario, id)
+            obj.adiciona(nome, telefone, email, aniversario, int(id))
         elif escolha == 2:
             num = int(input("Informe o numero do contato a remover: "))
             obj.remove(num)
         elif escolha == 3:
             nome = input("Informe o nome ou telefone do contato a buscar: ")
-            obj.busca(nome)
+            print(obj.busca(nome))
         elif escolha == 4:
             num = int(input("Informe o numero do contato a exibir: "))
-            obj.exibe(num)
+            print(obj.exibe(num))
         else:
             print("Saindo...")
             sys.exit(0)
