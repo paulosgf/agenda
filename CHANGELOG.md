@@ -10,3 +10,9 @@ Added:
 Changed:
 - Second test description
 
+1.0.5 (2022-12-10)
+
+Changed:
+- Third test description
+
+
