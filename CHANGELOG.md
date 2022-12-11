@@ -15,4 +15,10 @@ Changed:
 Changed:
 - Third test description
 
+1.0.6 (2022-12-10)
+
+Changed:
+- Fourth test description
+
+
 
